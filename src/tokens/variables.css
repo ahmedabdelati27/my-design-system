@@ -1,0 +1,205 @@
+/**
+ * Design Tokens — CSS Custom Properties
+ * Source: Figma — منصة الصيانة (Copy)
+ * Auto-generated from src/tokens/tokens.json
+ * Do not edit manually.
+ */
+
+:root {
+  /* ─── Font Family ─────────────────────────────────── */
+  --font-family-primary: "IBM Plex Sans Arabic", sans-serif;
+
+  /* ─── Font Size ───────────────────────────────────── */
+  --font-size-h1:    3.75rem;  /* 60px */
+  --font-size-h2:    3rem;     /* 48px */
+  --font-size-h3:    2.5rem;   /* 40px */
+  --font-size-h4:    2rem;     /* 32px */
+  --font-size-h5:    1.5rem;   /* 24px */
+  --font-size-h6:    1.125rem; /* 18px */
+  --font-size-body1: 1rem;     /* 16px */
+  --font-size-body2: 0.875rem; /* 14px */
+  --font-size-body3: 0.75rem;  /* 12px */
+  --font-size-body4: 0.625rem; /* 10px */
+
+  /* ─── Line Height ─────────────────────────────────── */
+  --line-height-h1:    4.5rem;   /* 72px */
+  --line-height-h2:    3.5rem;   /* 56px */
+  --line-height-h3:    3rem;     /* 48px */
+  --line-height-h4:    2.25rem;  /* 36px */
+  --line-height-h5:    1.75rem;  /* 28px */
+  --line-height-h6:    1.25rem;  /* 20px */
+  --line-height-body1: 1.5rem;   /* 24px */
+  --line-height-body2: 1.3125rem;/* 21px */
+  --line-height-body3: 1.125rem; /* 18px */
+  --line-height-body4: 0.75rem;  /* 12px */
+
+  /* ─── Font Weight ─────────────────────────────────── */
+  --font-weight-regular:   400;
+  --font-weight-medium:    500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold:      700;
+
+  /* ─── Spacing (Scale) ─────────────────────────────── */
+  --spacing-0:    0px;
+  --spacing-25:   0.0625rem; /* 1px  */
+  --spacing-50:   0.125rem;  /* 2px  */
+  --spacing-100:  0.25rem;   /* 4px  */
+  --spacing-200:  0.5rem;    /* 8px  */
+  --spacing-300:  0.75rem;   /* 12px */
+  --spacing-400:  1rem;      /* 16px */
+  --spacing-500:  1.25rem;   /* 20px */
+  --spacing-600:  1.5rem;    /* 24px */
+  --spacing-700:  1.75rem;   /* 28px */
+  --spacing-800:  2rem;      /* 32px */
+  --spacing-900:  2.25rem;   /* 36px */
+  --spacing-1000: 2.5rem;    /* 40px */
+  --spacing-1100: 2.75rem;   /* 44px */
+  --spacing-1200: 3rem;      /* 48px */
+  --spacing-1300: 3.25rem;   /* 52px */
+  --spacing-1400: 3.5rem;    /* 56px */
+  --spacing-1500: 3.75rem;   /* 60px */
+  --spacing-1600: 4rem;      /* 64px */
+  --spacing-1700: 4.25rem;   /* 68px */
+
+  /* ─── Border Radius ───────────────────────────────── */
+  --radius-none: 0px;
+  --radius-xsm:  0.0625rem; /* 1px */
+  --radius-sm:   0.125rem;  /* 2px */
+  --radius-md:   0.25rem;   /* 4px */
+  --radius-lg:   0.5rem;    /* 8px */
+
+  /* ─── Border Width ────────────────────────────────── */
+  --border-width-none: 0px;
+  --border-width-sm:   1px;
+  --border-width-md:   2px;
+  --border-width-lg:   4px;
+
+  /* ─── Color Palette — Primary ─────────────────────── */
+  --color-primary-50:  #e6f2ff;
+  --color-primary-100: #b0d6ff;
+  --color-primary-200: #8ac2ff;
+  --color-primary-300: #54a6ff;
+  --color-primary-400: #3395ff;
+  --color-primary-500: #007aff;
+  --color-primary-600: #006fe8;
+  --color-primary-700: #0057b5;
+  --color-primary-800: #00438c;
+  --color-primary-900: #00336b;
+
+  /* ─── Color Palette — Error ───────────────────────── */
+  --color-error-50:  #ffedf0;
+  --color-error-100: #ffe4e8;
+  --color-error-200: #ffc8cf;
+  --color-error-300: #ff4e64;
+  --color-error-400: #cc3e50;
+  --color-error-500: #bf3b4b;
+  --color-error-600: #992f3c;
+  --color-error-700: #73232d;
+  --color-error-800: #591b23;
+  --color-error-900: #330000;
+
+  /* ─── Color Palette — Success ─────────────────────── */
+  --color-success-50:  #e6fbf0;
+  --color-success-100: #d9f8e8;
+  --color-success-200: #b1f1d0;
+  --color-success-300: #04d268;
+  --color-success-400: #04bd5e;
+  --color-success-500: #03a853;
+  --color-success-600: #039e4e;
+  --color-success-700: #027e3e;
+  --color-success-800: #025e2f;
+  --color-success-900: #014a24;
+
+  /* ─── Color Palette — Warning ─────────────────────── */
+  --color-warning-50:  #fff1e6;
+  --color-warning-100: #ffe1cc;
+  --color-warning-200: #ffc499;
+  --color-warning-300: #ffa666;
+  --color-warning-400: #ff8933;
+  --color-warning-500: #ff6b00;
+  --color-warning-600: #cc5600;
+  --color-warning-700: #994000;
+  --color-warning-800: #662b00;
+  --color-warning-900: #331500;
+
+  /* ─── Color Palette — Info ────────────────────────── */
+  --color-info-50:  #e6e7ff;
+  --color-info-100: #ccceff;
+  --color-info-200: #999dff;
+  --color-info-300: #666cff;
+  --color-info-400: #333bff;
+  --color-info-500: #000aff;
+  --color-info-600: #0008cc;
+  --color-info-700: #000699;
+  --color-info-800: #000466;
+  --color-info-900: #000233;
+
+  /* ─── Color Palette — Neutrals ────────────────────── */
+  --color-neutrals-50:    #fafafa;
+  --color-neutrals-100:   #e5e5e5;
+  --color-neutrals-200:   #cccccc;
+  --color-neutrals-300:   #b3b3b3;
+  --color-neutrals-400:   #999999;
+  --color-neutrals-500:   #808080;
+  --color-neutrals-600:   #666666;
+  --color-neutrals-700:   #4d4d4d;
+  --color-neutrals-800:   #333333;
+  --color-neutrals-900:   #191919;
+  --color-neutrals-white: #ffffff;
+  --color-neutrals-black: #000000;
+
+  /* ─── Semantic — Text ─────────────────────────────── */
+  --color-text-headings:    #333333;
+  --color-text-body1:       #666666;
+  --color-text-body2:       #808080;
+  --color-text-body3:       #999999;
+  --color-text-body4:       #b3b3b3;
+  --color-text-action:      #007aff;
+  --color-text-action-hover:#006fe8;
+  --color-text-disabled:    #999999;
+  --color-text-info:        #000aff;
+  --color-text-warning:     #ff6b00;
+  --color-text-success:     #04d268;
+  --color-text-error:       #ff4e64;
+  --color-text-on-action:   #ffffff;
+
+  /* ─── Semantic — Icons ────────────────────────────── */
+  --color-icon-default:     #666666;
+  --color-icon-action:      #007aff;
+  --color-icon-action-hover:#006fe8;
+  --color-icon-disabled:    #999999;
+  --color-icon-info:        #000aff;
+  --color-icon-warning:     #ff6b00;
+  --color-icon-success:     #04d268;
+  --color-icon-error:       #ff4e64;
+  --color-icon-on-action:   #ffffff;
+
+  /* ─── Semantic — Surface ──────────────────────────── */
+  --color-surface-page:            #ffffff;
+  --color-surface-shade1:          #fafafa;
+  --color-surface-shade2:          #e5e5e5;
+  --color-surface-shade3:          #cccccc;
+  --color-surface-action-light:    #e6f2ff;
+  --color-surface-action-default:  #007aff;
+  --color-surface-action-hover:    #006fe8;
+  --color-surface-disabled:        #e5e5e5;
+  --color-surface-success-light:   #e6fbf0;
+  --color-surface-success-default: #03a853;
+  --color-surface-error-light:     #ffedf0;
+  --color-surface-error-default:   #ff4e64;
+  --color-surface-warning-light:   #fff1e6;
+  --color-surface-warning-default: #ff6b00;
+
+  /* ─── Semantic — Border ───────────────────────────── */
+  --color-border-default:       #e5e5e5;
+  --color-border-white:         #ffffff;
+  --color-border-success:       #d9f8e8;
+  --color-border-error:         #ffe4e8;
+  --color-border-warning:       #ffe1cc;
+  --color-border-info:          #ccceff;
+  --color-border-action-light:  #e6f2ff;
+  --color-border-action-default:#007aff;
+  --color-border-action-hover:  #006fe8;
+  --color-border-focus:         #007aff;
+  --color-border-disabled:      #b3b3b3;
+}

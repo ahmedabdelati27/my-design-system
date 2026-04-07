@@ -77,6 +77,8 @@ npm run storybook
 
 Opens the full component documentation at `http://localhost:6006`.
 
+> **Live Storybook:** https://my-design-system-storybook.vercel.app
+
 ### Build
 
 ```bash
@@ -357,6 +359,8 @@ Every component has a full Storybook file with:
 npm run storybook
 # http://localhost:6006
 ```
+
+**Live deployment:** https://my-design-system-storybook.vercel.app
 
 ---
 
